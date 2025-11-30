@@ -12,7 +12,6 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest --coverage"
   },
-  },
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.1.17",
