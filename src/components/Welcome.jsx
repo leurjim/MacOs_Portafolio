@@ -25,7 +25,7 @@ const setupTextHover = (container, type) => {
   const letters = container.querySelectorAll("span");
   const { min, max, default: base } = FONT_WEIGHTS[type];
 
-  const animateLetter =( letter, weight, duration = 0.25) => {
+  const animateLetter = (letter, weight, duration = 0.25) => {
     return gsap.to(letter, {
       duration,
       ease: "power2.out",
@@ -84,7 +84,7 @@ const Welcome = () => {
     </h1>
 
     <div className="small-screen">
-      <p>Este portafolio esta diseñado solo para desktop/table.</p>
+      <p>Este portafolio esta diseñado solo para desktop/tablet.</p>
     </div>
   </section>
 }
